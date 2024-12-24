@@ -1,0 +1,256 @@
+header{
+    background: linear-gradient(#d5d5d5,#fff,#fff,#fff,#fff);
+    text-align: center;
+    padding: 37px 0 24px 0;
+}
+
+#logo img{
+    width: 40%;
+}
+
+#hdr-menu{
+    padding: 12px 0 0 0;
+}
+
+#hdr-menu li{
+    font: .7em Tahoma, sans-serif;
+    color: #b7b7b7;
+    padding: 0 8px 7px 8px;
+}
+
+#hdr-menu li a{
+    text-transform: uppercase;
+    display: block;
+    color: #666;
+    font: bold 0.9rem Georgia, serif;
+}
+
+main{
+    background: url('../img/mainbg.jpg') repeat-x;
+    padding: 22px 0 0 0;
+}
+
+#slider{
+    height: 340px;
+    background: url('../img/slider1.jpg') center/cover;
+    border: 1px solid #c6c6c6;
+    border-radius: 8px;
+}
+
+h1{
+    font: bold 24px Georgia, serif;
+    color: #000;
+    text-align: center;
+    padding: 22px 0;
+}
+
+hr{
+    border: none;
+    border-bottom: 1px solid #e5e5e5;
+}
+.row{
+    padding: 22px 0;
+}
+.col{
+    padding: 11px 10px;
+}
+
+h2{
+    font: bold 1.3em Georgia, serif;
+    text-transform: capitalize;
+    color: #11719e;
+}
+h6{
+    font: .8em Helvetica, sans-serif;
+    color: #8c8c8c;
+}
+article img{
+    border: 1px solid #e1e1e1;
+    border-radius: 4px;
+    background: #f3f3f3;
+    padding: 6px;
+    margin: 17px 0;
+    width: 100%;
+}
+article p {
+    font: .8em/1.5 Helvetica, sans-serif;
+    color: #3e3e3e;
+}
+
+h3{
+    font: 1.3em Georgia, serif;
+    color: #444;
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 6px 0;
+}
+
+h4{
+    font: bold 1.2em "Gill Sans",sans-serif;
+    color: #444;
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 24px 0 6px 0;
+    clear: both;
+}
+
+.btn{
+    display: table;
+    width: 100%;
+    padding: 7px 13px;
+    margin-top: 20px;
+    text-align: left;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.btn span { float: right; }
+
+.btn1{
+    color:  #016999;
+    font: .8em Helvetica, sans-serif;
+    background: linear-gradient(to right, #e8e8e8, #f1f1f1,#f7f7f7,#ededed );
+    border: 1px solid #d8d8d8;
+}
+
+.btn2{
+    border: 1px solid #004a80;
+    font: .8em, Georgia, serif;
+    color: #ffffff;
+    background: linear-gradient(to right, #487bb2, #4d85bd,#4175a7, #406d9b);
+}
+
+.scl-p{
+    font: 12px Helvetica, sans-serif;
+    color: #444;
+    padding: 14px 0 0 0;
+}
+
+#icon{
+    padding: 8px 0 0 0;
+    text-align: center;
+}
+
+#icon li a{
+    border: none;
+    display: block;
+}
+
+#icon li a img{
+    width: 50px;
+}
+
+form input, textarea{
+    margin: 12px 0 0 0;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #cfcfcf;
+    color: #cfcfcf;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.upd{
+    border-bottom: 1px dashed #d3d3d3;
+    padding: 14px 0 9px 0;
+    overflow: auto;
+}
+
+.upd p{
+    font: .8em Helvetica, sans-serif;
+    color: #444;
+}
+
+.upd img{
+    float: left;
+    border: 6px solid #f0f0f0;
+    border-radius: 4px;
+    margin-right: 9px;
+
+}
+footer{
+    background: #333;
+    border-top: 10px solid #4c4c4c;
+    text-align: center;
+}
+
+footer .container{
+    padding: 16px 5px;
+}
+
+footer p{
+    font: .8em "Helvetica",sans-serif ;
+    color: #999;
+}
+
+footer menu{
+    margin: 6px 0;
+}
+
+footer menu li{
+    font: .8em Helvetica, sans-serif ;
+    color: #999;
+    padding: 3px;
+}
+
+footer menu li a{
+    display: block;
+    color: #999;
+    font: .8rem Helvetica, sans-serif;
+}
+
+.left, .right{
+    width: 100%;
+}
+
+
+@media only screen and (min-width: 768px){
+    .container{
+        max-width: 940px;
+        margin: auto;
+    }
+
+    header{text-align: initial;}
+    #logo img{
+        width: 25%;
+    }
+    #hdr-menu{
+        float: right;
+    }
+
+    #hdr-menu li{
+        display: inline-block;
+        border-left: 1px dotted #d6d6d6;
+    }
+
+    .col{
+        width: 33.33%;
+        float: left;
+    }
+    .row::after{
+        display: table;
+        content: '';
+        clear: both;
+    }
+
+    #icon{
+        float: left;
+    }
+    #icon li{
+        display: inline-block;
+        border: none;
+        padding: 0;
+    }
+
+    .btn{
+        width: 160px;
+    }
+
+    footer{
+        text-align: initial;
+    }
+
+    footer menu li{
+        display: inline-block;
+    }  
+    
+
+}
